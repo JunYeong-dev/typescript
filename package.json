@@ -8,6 +8,10 @@
   "scripts": {
     "start": "tsc-watch --onSuccess \"node dist/index.js\""
   },
+  "dependencies": {
+    "global": "^4.4.0",
+    "typescript": "^3.9.7"
+  },
   "devDependencies": {
     "tsc-watch": "^4.2.9"
   }
